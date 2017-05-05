@@ -1,39 +1,39 @@
-resource "null_resource" "print_junk_1" {
+resource "null_resource" "print_junk_a" {
   provisioner "local-exec" {
     command = "find /"
   }
 }
-resource "null_resource" "print_junk_2" {
+resource "null_resource" "print_junk_b" {
   provisioner "local-exec" {
     command = "find /"
   }
 }
-resource "null_resource" "print_junk_3" {
+resource "null_resource" "print_junk_c" {
   provisioner "local-exec" {
     command = "find /"
   }
 }
-resource "null_resource" "print_junk_4" {
+resource "null_resource" "print_junk_d" {
   provisioner "local-exec" {
     command = "find /"
   }
 }
-resource "null_resource" "print_junk_%" {
+resource "null_resource" "print_junk_e" {
   provisioner "local-exec" {
     command = "find /"
   }
 }
-resource "null_resource" "print_junk_6" {
+resource "null_resource" "print_junk_f" {
   provisioner "local-exec" {
     command = "find /"
   }
 }
-resource "null_resource" "print_junk_7" {
+resource "null_resource" "print_junk_g" {
   provisioner "local-exec" {
     command = "find /"
   }
 }
-resource "null_resource" "print_junk_8" {
+resource "null_resource" "print_junk_h" {
   provisioner "local-exec" {
     command = "find /"
   }
