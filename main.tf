@@ -1,5 +1,5 @@
 resource "null_resource" "print_junk" {
   provisioner "local-exec" {
-    command = "sleep 360"
+    command = "while read line; do echo "$line"; sleep 0.5 ; done < /var/log/system.log"
   }
 }
