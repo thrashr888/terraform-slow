@@ -1,2 +1,2 @@
 # terraform-slow
-A terraform config that's purposefully slow. Intended for watching Terraform Enterprise logs.
+A Terraform config that's purposefully slow. Intended for watching Terraform Enterprise logs.
