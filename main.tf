@@ -33,8 +33,3 @@ resource "null_resource" "print_junk_g" {
     command = "find /"
   }
 }
-resource "null_resource" "print_junk_h" {
-  provisioner "local-exec" {
-    command = "find /"
-  }
-}
